@@ -7,5 +7,5 @@ from hangman import hangman
 __author__ = "Wesley Soo-Hoo"
 __license__ = "MIT"
 
-h = hangman('j')
+h = hangman('this is my word')
 h.go()
