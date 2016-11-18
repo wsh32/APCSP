@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/APCSP.iml" filepath="$PROJECT_DIR$/.idea/APCSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vision/.idea/vision.iml" filepath="$PROJECT_DIR$/../vision/.idea/vision.iml" />
     </modules>
   </component>
 </project>
