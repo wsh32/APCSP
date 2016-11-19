@@ -59,7 +59,7 @@ class EndStep(Step):
         print("1: Yes")
         print("2: No")
         if input(">>\t") == '1':
-        	self.first_step.go()
+            self.first_step.go()
 
 
 def read_csv(filename):
@@ -73,10 +73,15 @@ def read_csv(filename):
     for i in cells:
         if i[2] == "_END_STEP":
             s = EndStep(i[1], steps[0])
-        else:
+        elif i[4] == "-":
             s = Step(i[1], [i[2], i[3]], [])
+        else:
+            s = Step(i[1], [i[2], i[3], i[4]], [])
         steps.append(s)
     for i in range(len(steps)):
         if not steps[i].is_end():
-            steps[i].add_outcomes([steps[int(cells[i][4])], steps[int(cells[i][5])]])
+            if i[7] == "-":
+                steps[i].add_outcomes([steps[int(cells[i][4])], steps[int(cells[i][5])]])
+            else:
+                steps[i].add_outcomes([steps[int(cells[i][5])], steps[int(cells[i][6])], steps[int(cells[i][7])]])
     return steps
