@@ -1,3 +1,120 @@
-0	you walk into a dark house	you go left	you go right    -	1	2   -
-1	you win!	_END_STEP
-2	you lose!	_END_STEP
+0	Welcome to The Forest. You are Jeff, a scrawny little boy who is dared by his amazing friends to enter the forest and exit the other side. Unsurprisingly, you take the challenge. You walk forward until you cannot go anymore. There are two paths.	You follow the dark and ominous path left. There is a crow flying over the path.	You follow the dark and ominous path to the right. There is a tree lurking.	-	1	2	-
+1	You reach a clearing. There is a stick on the floor.	You pick up the stick and continue moving forward.	You realize the stick is haunted and break it, briskly moving forward.	-	4	3	-
+2	You reach a clearing. There is a book on the floor with sigils inscribed on the floor.	You pick up the magical book and read through it.	You are afraid of the book and bury it in the leaves nearby.	-	5	6	-
+3	The path diverges left and right. There is a scarecrow in the center.	You go left, without looking back at the distance you just covered.	Looking back, you do not remember anything and go right.	-	7	13	-
+4	The path diverges left and right. There is a traffic sign in the center.	You go left, without looking back at the distance you just covered.	Looking back, you do not remember anything and go right.	-	13	8	-
+5	The path diverges left and right. There is a dead oak tree in the center.	You go left, without looking back at the distance you just covered.	Looking back, you do not remember anything and go right.	-	8	9	-
+6	The path diverges left and right. You notice a dead cat.	You go left, without looking back at the distance you just covered.	Looking back, you do not remember anything and go right.	-	9	10	-
+7	As you follow the path, a shiny locket catches your eye.	You pick up the locket and examine it.	The locket's beauty scares you. You ignore it and move on.	-	12	11	-
+8	A wild beast appears on the horizon. Its ripped muscles look ready to kill.	You realize what your purpose is. You try to slay the beast.	You recognize the beast is lethal, and run away, preventing your injury.	-	18	17	-
+9	A chamber of light approaches.	You enter the chamber and feel complete.	The chamber's power proves to be too much, and you get as far away fro it as you can.	-	10	19	-
+10	A cave draws near. The wide mouth beckons. You cannot see inside the cave.	You feel attracted to the cave, and enter it.	Afraid of the cave's powers, you shy away.	-	108	22	-
+11	The path diverges left and right. There is a light emanating from the center.	You go left, without looking back at the distance you just covered.	Looking back, you do not remember anything and go right.	-	24	23	-
+12	A goblin appears as soon as you pick up the locket. it is drooling and ready to strike.	You kill the goblin, by using the locket's newfound powers. You pillage the corpse for supplies.	Not wanting to confront the goblin, you run back and lose sense of direction.	-	24	13	-
+13	You see a tree. It is tall and proud.	You climb the tree and see something in the distance.	You run past the tree, never looking back.	-	17	14	-
+14	The path diverges left and right. A dog watches.	You go left, without looking back at the distance you just covered.	Looking back, you do not remember anything and go right.	-	15	16	-
+15	You see a gun on the floor. It is loaded and ready.	You pick it up. You set the hammer and ready the weapon.	You decide against the weapon, choosing to stay safe.	-	46	16	-
+16	A pond draws near. It is clear and pristine.	You jump in, wanting to enjoy the water.	Recognizing the perils, you walk away from it and move on.	-	51	17	-
+17	You go towards a bridge. It is rickety and old. An ogre watches silently.	Unafraid, you walk through it.	Scared, you stay put and wait with the ogre.	-	66	59	-
+18	The beast does not go down without a fight. You decide you want to loot the remains, but only have the space for one item.	You take the head as a memory for your kill.	You take the body, for sustenance and continue your journey.	-	20	19	-
+19	A wild rabid dog grows near. You need to hide.	You hide in the bushes and stay low to the ground.	You see a tree and climb up it.	-	22	21	-
+20	A spirit draws near. It offers its blessing.	You take its blessing and feel energized.	You are afraid of the power and decline.	-	80	73	-
+21	Atop the tree, there are two noticable areas to hide. They are equally powerful.	You move towards the dust clouds.	You move towards the smokescreens.	-	92	85	-
+22	On the floor, you see a tunnel leading to the unknown.	You charge in, without considering the consequences.	You decide against going through the tunnel, choosing to stay hidden.	-	100	99	-
+23	A house appears on the horizon. It is old and pale.	Sticking to your morals, you decide not to enter the house.	Needing more supplies, you enter the house discreetly.	-	25	32	-
+24	As you are walking further, you see a spaceship. It is flashy and enticing.	You enter the spaceship, deciding that the reward is greater than the risk.	You go for the safe play, not going into the spaceship.	-	41	29	-
+25	You see a car near the house. Its keys are in the ignition.	You take the car out. You need it to get out of the forest.	You decide against stealing the homeowner's car.	-	26	27	-
+26	In the car, you start to drive out. A woman appears in the window in the house. She fires many rounds into the car and you bleed to death inside the car.	_END_STEP	-	-	-	-	-
+27	As you walk past the car, you see a cigarette lighter. It is shiny and new.	You pick it up, ready to use it as a weapon.	You leave it behind, and don't look back at the house.	-	28	29	-
+28	You use the ciarette lighter. It is hot and you drop it. A fire starts around you and there is no escape. You die in the fire.	_END_STEP	-	-	-	-	-
+29	As you go forwards, the woods blend into the surroundings. Soon, you are not sure where you even began.	You decide to stop and camp out for the night.	You push forwards and accept whatever fate comes your way.	-	30	31	-
+30	At your camp, you fall asleep. Wolves surround you and they eat you while you are sleeping. You do not even recognize you have died.	_END_STEP	-	-	-	-	-
+31	Minutes turn into hours, and you continue to wander. Eventually, you see a light. It is the outskirts of the forest. You have successfully made it out of the forest. Your friends are there to greet you. They congratulate you.	_END_STEP	-	-	-	-	-
+32	Inside the house, you find a kitchen. The kitchen has a wide variety of weapons but a knife stands out.	You pick up the knife, ready for whatever comes your way.	You decide against the knife, as you want to leave the house undisturbed.	-	34	33	-
+33	A woman knifes you in the back of the head and you die instantly. You are buried in her backyard.	_END_STEP	-	-	-	-	-
+34	As you turn around, you see a woman. She is armed with a small combat knife.	You engage her, attacking with your knife. It is an instant kill.	You try to bargain with her, asking her to set her knife down.	-	36	35	-
+35	The woman refuses to listen. She stabs you in the head and you die.	_END_STEP	-	-	-	-	-
+36	The woman is dead. The house is quiet and empty.	You stay in the house.	You exit the house, looking for answers.	-	37	38	-
+37	You live in the house. Days turn to weeks, and eventually, it was like you always lived in the house. It is yours forever.	_END_STEP	-	-	-	-	-
+38	Wolves surround you as you exit. Fully armed, you are prepared.	You run away from the wolves not wanting to cause a scene.	You attack the wolves headstrong, feeling confident at your previous victims.	-	40	39	-
+39	The wolves are of too many. You kill some, but are eventually overtaken and mauled to death. It is not pretty.	_END_STEP	-	-	-	-	-
+40	You run away from the wolves, and they do not give chase. Eventually, you get far enough that the trees all disappear. You have left the forest alive. There is nobody around you.	_END_STEP	-	-	-	-	-
+41	Your previous knowledge of mechanics helps. You understand the controls of the spaceship.	Realizing the dangers, you do not start the spaceship and try to exit.	You start the spaceship and proceed to complete all procedures necessary to fly.	-	42	43	-
+42	An alien comes out of a room in the space ship. It notices you and eats you alive. Nobody ever hears of you again.	_END_STEP	-	-	-	-	-
+43	The engine hums to life. There is a screen in the center of the console. It has coordinates.	You go to those coordinates, curious about where they lead.	You ignore the coordinates, choosing to forge your own path.	-	44	45	-
+44	You end up on an alien planet. The species is not accomodating. You are dissected for examination.	_END_STEP	-	-	-	-	-
+45	You fly until the spaceship can go no further. You have left the solar system. You cannot determine where you stopped. You are not in any known star system. You have flown out there.	_END_STEP	-	-	-	-	-
+46	Wolves jump out at you. They are foaming at the teeth and ready.	You kill them with your gun, relishing every moment.	You try to appease them, showing that you are not violent.	-	48	47	-
+47	The wolves do not take kindly to your benevolence. They eat you as you surrender.	_END_STEP	-	-	-	-	-
+48	You pick out the wolves' corpses. You move on to a divide in the path.	You go left, without looking back at the distance you just covered.	Looking back, you do not remember anything and go right.	-	49	50	-
+49	You make it out of the forest alive. You are scared for your life and hide next to a tree until you are rescued.	_END_STEP	-	-	-	-	-
+50	A spaceship comes by the path and obliterates everything inits path. You are in that path. You die without even knowing it.	_END_STEP	-	-	-	-	-
+51	Underwater, the path diverges. Fish swim by as you make a decision.	You go left, without looking back at the distance you just covered.	Looking back, you do not remember anything and go right.	-	52	53	-
+52	You reach an underwater cave. It is very enticing.	You go inside, not fearing the unknown.	You decide to shy away from it, as it could be very dangerous.	-	54	55	-
+53	You see a coral reef. It is very shiny and beautiful.	You dig inside in the hopes of finding treasure.	You decide not to touch it, as it could be poisonous.	-	56	53	-
+54	You are in the water still and it is getting hard to breathe.	You decide to come up outside of the water, and get a breath of air.	You are brave and decide to stay under.	-	57	58	-
+55	You find a cave of treasure. It is beautiful and you spend the rest of your life living with the treasure and all of the surroundings.	_END_STEP	-	-	-	-	-
+56	You touch the gold particles in the coral. You become a gold particle and disintegrate.	_END_STEP	-	-	-	-	-
+57	You are shot as soon as you come up for air. You sink to the bottom never to be seen again.	_END_STEP	-	-	-	-	-
+58	You drown because you did not come up for air. You die and float. Nobody finds you.	_END_STEP	-	-	-	-	-
+59	The ogre raises its voice. It asks you for your name, quest, and favorite color.	You answer truthfully, and it enjoys your presence.	You ignore the ogre's question. It grows impatient.	-	60	61	-
+60	The ogre expresses interest in being your friend. It is green and smiling.	You agree, and become friends with the ogre.	You decline, as you do not want to be the ogre's slave.	-	62	63	-
+61	The ogre begins to growl and foam at the mouth. Its eyes are black and emotionless.	You attempt to slay the ogre, to put it out of its misery.	You run away, not wanting to engage the cruel beast.	-	64	65	-
+62	You and the ogre live together for the rest of your life and are happy in the swamp.	_END_STEP	-	-	-	-	-
+63	The ogre brutally mutilates you for not being its friend. You are unrecognizable.	_END_STEP	-	-	-	-	-
+64	The ogre proves to be too strong for you. Your limbs and appendages are bruatally ripped off.	_END_STEP	-	-	-	-	-
+65	The ogre gives chase, and catches up. It pins you down and eats you.	_END_STEP	-	-	-	-	-
+66	You move towards a train car. It is delapidated and desparately needs repairs.	You enter the train car, hoping to get lucky with finding supplies.	You do not enter the train car, afraid of any lurking people in the shadows.	-	67	68	-
+67	A man jumps out from behind a bench. He is crazed and ready to eat you alive.	You wrestle him to the ground. He is very strong.	You jump out of the train car, not looking back.	-	69	70	-
+68	There is a hole in the ground. It is beckoning you. It is dark and inviting.	You jump in, ready for anything that comes.	You decide not to jump down, and instead move on.	-	71	72	-
+69	He knocks you out. You never wake up again.	_END_STEP	-	-	-	-	-
+70	Outside of the train car, you hide. He is not in pursuit. You are scared for your life, and hide for the night. When you wake, you do not remember where you are. You are lost in the woods.	_END_STEP	-	-	-	-	-
+71	Through the hole, a magical place of rainbows and ponies presents itself. They accept you as their lord and savior and you live as a king.	_END_STEP	-	-	-	-	-
+72	A man kills you with a shotgun. You do not even turn around. He drags you off and nobody ever notices you are gone.	_END_STEP	-	-	-	-	-
+73	The spirit grows violent. It wants to kill you ans save your body for the future.	You jump and do a somersault in the air, rolling out of the way of the plasma beam.	You duck out of the way of the plasma beam. You are low to the floor, evading its vision.	-	74	75	-
+74	It cannot find you. You see the spirit clearly. It is vulnerable.	You attack the spirit, tryng to kill it. Its weakness is amplified when you are attacking because you use magic.	You use weapons you find around. They are tangible and strong.	-	77	76	-
+75	On the ground, the spirit is not able to locate you. You need to leave eventually.	You attempt to make a break for it now in order to run away swiftly.	You stay hidden not wanting to make your presence known.	-	78	79	-
+76	The spirit steals your soul and you are soulless for all of eternity.	_END_STEP	-	-	-	-	-
+77	The spirit is impressed with your magic and you live the rest of your live with the spirit.	_END_STEP	-	-	-	-	-
+78	The spirit rips your body apart when you try to run away, You are dead.	_END_STEP	-	-	-	-	-
+79	You are stuck afraid on the ground for the rest of your life. You do not want to signal your presence to the spirit and instead die without nobody noticing.	_END_STEP	-	-	-	-	-
+80	The spirit offers you guidance. It is very compelling as the spirit is scary.	You agree and take up magic in the name of the spirit.	You disagree, and the spirit grows weary.	-	81	82	-
+81	You and the spirit live together for the rest of your life, and the spirit guides your way of the spells. It is a happy life.	_END_STEP	-	-	-	-	-
+82	The spirit's eyes grow red. It is rearing to attack.	You attack the spirit with magic, in an attempt to subdue the crazed being.	You surrender yourself to the spirit and take whatever punishment comes your way.	-	84	83	-
+83	The spirit brutally tears your heart out and nobody notices your death as you are forgotten.	_END_STEP	-	-	-	-	-
+84	The spirit is impressed with your magic and you join the spirit for the rest of your life.	_END_STEP	-	-	-	-	-
+85	As you move towards the smoke. you notice a raging fire. It is nearly out of control.	You put out the attempt to put out of the fire, to save the surrounding area.	You do not put out the fire, as it is mesmerizing.	-	87	86	-
+86	The fire is incredibly attractive. You see beauty in the fire.	You jump in the fire embracing the adventure.	You wait, simply gazing at the fire.	-	88	89	-
+87	The fire is put out. The surroundings are scorched but very calm. There is a large clearing from the wake of the fire.	You walk into the clearing and look for any sort of life.	You walk away, feelng proud that you put out the fire.	-	91	90	-
+88	You burn to death horribly. Your skin melts as your entire body is heated and you lose all sense of the world. You are dead.	_END_STEP	-	-	-	-	-
+89	You are unable to move out of the way of the fire and eventually burn to death. The fire engulfs you.	_END_STEP	-	-	-	-	-
+90	You wander the forest for all of eternity. There is no leaving the forest.	_END_STEP	-	-	-	-	-
+91	A helicopter sees you and you wave. It lands and carries you away. You are saved. You exit the forest.	_END_STEP	-	-	-	-	-
+92	A girl is inside of the dust storm. She is unconscious.	You save the girl, and patch up her wounds.	You kill the girl as she is unable to defend herself.	-	93	94	-
+93	The girl is grateful. She offers her guidance. She appears to know the forest.	You take her guidance. You follow her.	You refuse her guidance. You move on.	-	95	96	-
+94	Her body is on the floor bloodied. There is a great deal of supplies on her body.	You take her supplies, using them to move on.	You leave her supplies, and move on.	-	97	98	-
+95	You follow the girl and she leads you out of the forest. She disappears and you are left alone, escaping the torturous forest.	_END_STEP	-	-	-	-	-
+96	The girl kills you as you reject her guidance. She buries you in the center of the forest.	_END_STEP	-	-	-	-	-
+97	Her spirit exits her body as you loot it. It steals your soul and eats it. Your husk of a body is aimlessly wandering until it dies.	_END_STEP	-	-	-	-	-
+98	You eventually walk out of the forest yourself, unscathed. You have experienced a life-threatening event and are scarred for life.	_END_STEP	-	-	-	-	-
+99	You are sill hidden. You need to escape eventually.	You stand your ground and attack.	You surrender to the dog, hoping it will show mercy.	-	104	103	-
+100	There is a crossroad inside of the tunnel. It is very dark but you can make out the surroundings.	You enter the minecart and go forward with it.	you follow the path next to the mine cart, afraid of the insides of the minecart.	-	101	102	-
+101	There is a loud noise in the tunnel. It is very scary. You quiver.	You hide in the corner, not wanting to be seen by whatever lurks in the shadows.	You bravely stand your ground, wanting to confront whatever you see head on.	-	105	106	-
+102	There is a loud noise in the tunnel. It is very scary. You quiver.	You duck in the cart, not wanting to be seen by whatever lurks in the shadows.	You look outside of the cart to see the creators of the loud noises.	-	107	106	-
+103	The dog likes your ferocity. You befriend the dog and live with it for the rest of your life.	_END_STEP	-	-	-	-	-
+104	The dog devours your body and you are dead. There are only bones left on the floor reflecting you, and they are eventually decomposed.	_END_STEP	-	-	-	-	-
+105	You wait forever for the trolls to pass. You die in the cave as you cannot get out.	_END_STEP	-	-	-	-	-
+106	The trolls see you and eat you. There are no remains.	_END_STEP	-	-	-	-	-
+107	You reach an outside, and the mine cart trolleys you to safety. You are outside of the forest and survived the experience.	_END_STEP	-	-	-	-	-
+108	Inside of the cave, you see a bunch of prisoners chained to a wall. They are all submissive and waiting.	You are mesmerized by them and move towards them	Not wanting to be chained, you move on.	-	109	116	-
+109	You grow near and see a free set of shackles. They are your size.	You shackle yourself and see what the prisoners are seeing.	You leave the empty set of shackles and stay around them.	-	110	111	-
+110	You see shadows. They are real. They reflect your reality. The prisoners appear to be communicating.	You join in the conversation.	You remain silent and let the prisoners talk.	-	115	114	-
+111	You see a key nearby. It appears to fit the keys of the shackles.	You unshackle the prisoners, not wanting them to be trapped anymore.	You leave the prisoners be and do not make any effort to save them.	-	112	113	-
+112	The now free prisoners are angry. They kill you for changing their reality and perspectives on life.	_END_STEP	-	-	-	-	-
+113	You run outside of the cave and never look back. You eventually make it out of the forest but are alone.	_END_STEP	-	-	-	-	-
+114	You sit in silence for the rest of your life. The prisoners make no effort to get to know you.	_END_STEP	-	-	-	-	-
+115	The prisoners mock you for the rest of your life. You are inferior in every way to the prisoners.	_END_STEP	-	-	-	-	-
+116	There are shadows as you move on. They beckon.	You approach the shadows wanting to know more about the mysterious cave.	You decide against going to towards the shadows and instead try to make your way out of the cave.	-	119	117	-
+117	On your way out, you see a light switch. It is very large.	You flip the light switch wanting to see the full cave.	You try to exit anyways, ignoring the cave and not wanting to learn any more about the strange cave.	-	118	119	-
+118	The prisoners scream as they are not used to the light at all. The screams reach a resonating frequency and your mind is corrupted as a result. You are unable to think anymore.	_END_STEP	-	-	-	-	-
+119	As you make your way out, the guards catch you and you are executed.	_END_STEP	-	-	-	-	-

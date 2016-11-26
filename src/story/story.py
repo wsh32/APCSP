@@ -80,8 +80,12 @@ def read_csv(filename):
         steps.append(s)
     for i in range(len(steps)):
         if not steps[i].is_end():
-            if i[7] == "-":
-                steps[i].add_outcomes([steps[int(cells[i][4])], steps[int(cells[i][5])]])
+            if cells[i][7] == "-":
+                if int(cells[i][5]) > len(steps)-1:
+                    print(int(cells[i][5]))
+                if int(cells[i][6]) > len(steps)-1:
+                    print(int(cells[i][6]))
+                steps[i].add_outcomes([steps[int(cells[i][5])], steps[int(cells[i][6])]])
             else:
                 steps[i].add_outcomes([steps[int(cells[i][5])], steps[int(cells[i][6])], steps[int(cells[i][7])]])
     return steps
