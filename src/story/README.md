@@ -1,6 +1,8 @@
 # APCSP Story
 Story Assignment for AP Computer Science Principles
 
+Run `main.py` using Python 3.5 or find it on [repl.it](https://repl.it/EMJB/31)
+
 To import a story:
 
 1. Create a TSV file as so:
