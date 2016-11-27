@@ -8,5 +8,5 @@ __author__ = "Wesley Soo-Hoo, Spencer Hu"
 __license__ = "MIT"
 
 if __name__ == '__main__':
-    i = story.read_csv('test.txt')
+    i = story.read_csv('s.txt')
     i[0].go()
