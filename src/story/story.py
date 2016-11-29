@@ -7,8 +7,9 @@ __license__ = "MIT"
 
 
 class Step:
-    def __init__(self, message, choices, outcomes):
+    def __init__(self, message, score, choices, outcomes):
         self.message = message
+        self.score = score
         self.choices = choices
         self.outcomes = outcomes
 
@@ -18,13 +19,34 @@ class Step:
     def is_end(self):
         return False
 
-    def __is_int(self, i):
+    @staticmethod
+    def __is_int(i):
         try:
             return int(i)
             return True
         except:
             return False
 
+    def print_message(self):
+        print("\n" + self.message)
+
+    def ask_choice(self):
+        i = 1
+        for j in self.choices:
+            print(str(i) + ":\t" + j)
+            i += 1
+        while True:
+            choice = input('\nWhat do you pick?\n>>\t')
+            if not self.__is_int(choice):
+                print("That is not a valid choice!")
+                continue
+            elif int(choice) > len(self.outcomes) or int(choice) <= 0:
+                print("That is not a valid choice!")
+                continue
+            else:
+                return self.outcomes[int(choice) - 1]
+
+    '''Depreciated'''
     def go(self):
         print("\n"+self.message)
         i = 1
@@ -36,7 +58,7 @@ class Step:
             if not self.__is_int(choice):
                 print("That is not a valid choice!")
                 continue
-            elif int(choice) > len(self.outcomes):
+            elif int(choice) > len(self.outcomes) or int(choice) <= 0:
                 print("That is not a valid choice!")
                 continue
             else:
@@ -45,13 +67,26 @@ class Step:
 
 
 class EndStep(Step):
-    def __init__(self, message, first_step):
+    def __init__(self, message, first_step, score):
         self.message = message
         self.first_step = first_step
+        self.score = score
 
     def is_end(self):
         return True
 
+    def print_message(self):
+        print("\n" + self.message)
+
+    def ask_repeat(self):
+        while True:
+            print("\nI wonder how differently that could've played out...")
+            print("Would you like to play again?")
+            print("1: Yes")
+            print("2: No")
+            return input(">>\t") == "1"
+
+    '''Depreciated'''
     def go(self):
         print(self.message)
         print("\nI wonder how differently that could've played out...")
@@ -72,11 +107,11 @@ def read_csv(filename):
     steps = []
     for i in cells:
         if i[2] == "_END_STEP":
-            s = EndStep(i[1], steps[0])
+            s = EndStep(i[1], steps[0], int(i[8]))
         elif i[4] == "-":
-            s = Step(i[1], [i[2], i[3]], [])
+            s = Step(i[1], int(i[8]), [i[2], i[3]], [])
         else:
-            s = Step(i[1], [i[2], i[3], i[4]], [])
+            s = Step(i[1], int(i[8]), [i[2], i[3], i[4]], [])
         steps.append(s)
     for i in range(len(steps)):
         if not steps[i].is_end():
